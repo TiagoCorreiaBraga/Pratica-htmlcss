@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.inf {
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+body{
+    background-color: #e6e6e6;
+}
+.mens {
+    display: flex;
+    height: 60px;
+    width: 420px;
+}
+input {
+    border-radius: 10px;
+}
+header{
+text-align: center;
+background-color: #d9d9d9;
+padding: 1rem;
+}
+.email{
+    display: flex;
+}
+header {
+    padding: 0px;
+}
+h1 {
+    padding: 10px;
+}
+h2 {
+    padding: 10px;
+}
+h3 {
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}
+button{
+    margin: 0px;
+    padding: 5px 1rem;
+    border: none;
+    background-color: white;
+    border-left: solid 1px #d9d9d9;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    cursor: pointer;
+}
+input{
+    width: 10%;
+    border: none;
+    padding: 5px 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin: 0;
+    &:focus{
+        outline: none;
+    }
+}
+.link{
+    display: flex;
+    padding: 5px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: gray;
+}
+
+
+.imgd {
+   padding-left: 34%;
+}
+
+.imge {
+    height: 270px;
+    width: 580px;
+
+}
+h4{
+    padding: 10px;
+}

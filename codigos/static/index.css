@@ -69,6 +69,7 @@ input{
 .link{
     display: flex;
     padding: 5px;
+    color: blue
 }
 .container{
     width: 100%;
@@ -90,4 +91,14 @@ input{
 }
 h4{
     padding: 10px;
+}
+pre{
+    background-color: #656161;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    border-radius: 10px;
+    &:hover{
+        transform: scale(1.02);
+        transition: all .5s ease-in-out;
+    }
 }
